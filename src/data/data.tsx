@@ -72,7 +72,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
+        I'm a <strong className="text-stone-100">Software Engineer</strong>, currently working
         at <strong className="text-stone-100">Perficient</strong> helping build modern B2C and B2B ecommerce websites.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
