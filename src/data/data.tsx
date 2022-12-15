@@ -290,32 +290,41 @@ export const experience: TimelineItem[] = [
   {
     date: 'June 2021 - Present',
     location: 'Perficient, Inc.',
-    title: 'Software Engineer',
+    title: 'Software Engineer Consultant',
     content: (
       <div className='md:pl-8'>
         <p>
-          Implemented business and customer facing web pages to improve the UI/UX as well as improving loading times and increasing security.
+          Utilized PHP, HTML, CSS, and JS on the Magento Framework to design, build, test, and deploy business and customer-facing webpages.
         </p>
         <br/>
         <p>
-          Participated in a 20 person team doing analysis, design, development, implementation, enhancements, and testing of a high profile ecommerce website utilizing Adobe Commerce, PHP, HTML, CSS, and JS.
+          Collaborated with large teams for different companies that had millions of users, to improve speed, UX, and security.
         </p>
+        <br/>
+        <p>
+          Worked on issues with minimal oversight. Received much praise for the code I contributed and received a promotion in less than a year.        
+        </p>
+        
       </div>
       
     ),
   },
   {
     date: 'September 2020 - January 2021',
-    location: 'Lapis Health • Internship',
-    title: 'Mobile Developer',
+    location: 'Lapis Health',
+    title: 'Mobile Developer Intern',
     content: (
       <div className='md:pl-8'>
         <p>
-          Utilized Flutter and Dart to implement features, fix bugs, and improve the overall UI/UX of the app. 
+          Responsible for the design, implementation, and deployment of a global light/dark theme using Flutter and Dart.
         </p>
         <br/>
         <p>
-          Led two large feature requests which included creating a dark mode for the application and used Flutter Flavors to provide multiple testing environments each connected to their own Firebase.
+          Created Dev, Staging, and Prod build configurations using Flutter Flavors connected to their own firebase database.
+        </p>
+        <br/>
+        <p>
+          Further developed my multitasking, time-management, and problem-solving abilities by taking this internship during the first semester of my senior year of college.
         </p>
       </div>
 
@@ -383,8 +392,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Github,
-      text: 'rymcguin',
-      href: 'https://github.com/rymcguin',
+      text: 'rmcguiness',
+      href: 'https://github.com/rmcguiness',
     },
   ],
 };
