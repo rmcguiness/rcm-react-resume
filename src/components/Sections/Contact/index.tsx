@@ -47,7 +47,7 @@ const Contact: FC = memo(() => {
                     <dd className="flex items-center">
                       <a
                         className={classNames(
-                          '-m-2 flex rounded-md p-2 text-neutral-300 hover:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700',
+                          '-m-2 flex rounded-md p-2 text-neutral-300 hover:text-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600',
                           {'hover:text-white': href},
                         )}
                         href={href}
