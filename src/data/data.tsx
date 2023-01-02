@@ -75,7 +75,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/Ryan_McGuiness_Resume_2022.docx.pdf',
+      href: '/assets/Ryan_McGuiness_Resume_2022.docx(1).pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -200,13 +200,13 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'MKR Rugstore',
-    description: 'A commerce website built using React and handles payments with Stripe. Connected to a Sanity database,  making it easy to add and edit products.',
+    description: 'Built a React commerce website connected to a Sanity database and integrated Stripe to handle transactions',
     url: 'https://mkr-ecommerce-v465.vercel.app/',
     image: portfolioImage1,
   },
   {
     title: 'How-To Generator',
-    description: 'A React input form connected to OpenAi’s language model text-davinci-003. Inputting a subject returns a detailed list of how to do said subject.',
+    description: 'Leveraged a React input form connected to OpenAi’s language model, text-davinci-003, to respond to users with a detailed list of "how to do anything".',
     url: 'https://howtogenerator.netlify.app/',
     image: portfolioImage2,
   },
@@ -236,11 +236,11 @@ export const experience: TimelineItem[] = [
         </p>
         <br/>
         <p>
-          Collaborated with large teams for different companies that had millions of users, to improve speed, UX, and security.
+          Collaborated with large teams to provide clients with improved display speeds, UX functionality, and system security, for their millions of active users.
         </p>
         <br/>
         <p>
-          Worked on issues with minimal oversight. Received much praise for the code I contributed and received a promotion in less than a year.        
+          Exhibited self-starter qualities by producing reputable code with minimal oversight, which was recognized by the team and rewarded with a promotion ahead of schedule.
         </p>
         
       </div>
@@ -254,7 +254,7 @@ export const experience: TimelineItem[] = [
     content: (
       <div className='md:pl-8'>
         <p>
-          Responsible for the design, implementation, and deployment of a global light/dark theme using Flutter and Dart.
+          Responsible for designing, implementing, and deploying a global light/dark theme using Flutter and Dart.
         </p>
         <br/>
         <p>
@@ -262,7 +262,7 @@ export const experience: TimelineItem[] = [
         </p>
         <br/>
         <p>
-          Further developed my multitasking, time-management, and problem-solving abilities by taking this internship during the first semester of my senior year of college.
+          Enhanced multitasking, time-management, and problem-solving skills by completing this internship during the fall semester of my senior year.
         </p>
       </div>
 
