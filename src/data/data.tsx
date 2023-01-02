@@ -75,7 +75,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/Ryan_McGuiness_Resume_2022.pdf',
+      href: '/assets/Ryan_McGuiness_Resume_2022.docx.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
