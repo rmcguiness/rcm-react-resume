@@ -96,7 +96,7 @@ export const aboutData: About = {
   description: ``,
   aboutItems: [
     {label: 'Location', text: 'New Jersey, US', Icon: MapIcon},
-    {label: 'Age', text: '23', Icon: CalendarIcon},
+    {label: 'Age', text: '24', Icon: CalendarIcon},
     // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
     // {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
     {label: 'Education', text: 'Lehigh University', Icon: AcademicCapIcon},
