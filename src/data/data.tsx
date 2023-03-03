@@ -75,7 +75,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/Ryan_McGuiness_Resume_2022.docx(1).pdf',
+      href: '/assets/ryanMcGuinessResume.docx.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -93,7 +93,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: ``,
+  description: `I am a Software Developer with 3 years of professional experience. Determined and passionate about writing efficient code to build clean web-pages using modern technologies.`,
   aboutItems: [
     {label: 'Location', text: 'New Jersey, US', Icon: MapIcon},
     {label: 'Age', text: '24', Icon: CalendarIcon},
@@ -116,14 +116,6 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name:'JavaScript',
-        level: 8,
-      },
-      {
-        name:'TypeScript',
-        level: 6,
-      },
-      {
         name: 'HTML',
         level: 10,
       },
@@ -131,13 +123,17 @@ export const skills: SkillGroup[] = [
         name: 'CSS',
         level: 9,
       },
+      {
+        name: 'React Native',
+        level: 6,
+      }
     ],
   },
   {
     name: 'Programming Languages',
     skills: [
       {
-        name: 'Java',
+        name:'JavaScript',
         level: 9,
       },
       {
@@ -145,16 +141,12 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
+        name: 'Java',
+        level: 7,
+      },
+      {
         name: 'PHP',
         level: 8,
-      },
-      {
-        name: 'C/C++',
-        level: 6,
-      },
-      {
-        name: 'Dart',
-        level: 6,
       },
     ],
   },
@@ -168,10 +160,6 @@ export const skills: SkillGroup[] = [
       {
         name: 'Spanish',
         level: 3,
-      },
-      {
-        name: 'French',
-        level: 0,
       },
     ],
   },
@@ -199,14 +187,14 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'MKR Rugstore',
-    description: 'Built a React commerce website connected to a Sanity database and integrated Stripe to handle transactions',
+    title: 'MKR E-commerce',
+    description: 'Built a React e-commerce website connected to a Sanity database and integrated Stripe to handle transactions. I created this site as template to sell future products I make pursuing my hobbies.',
     url: 'https://mkr-ecommerce-v465.vercel.app/',
     image: portfolioImage1,
   },
   {
     title: 'How-To Generator',
-    description: 'Leveraged a React input form connected to OpenAi’s language model, text-davinci-003, to respond to users with a detailed list of "how to do anything".',
+    description: 'Leveraged a React input form connected to OpenAi\’s language model, text-davinci-003. I created this app to practice interacting with OpenAi\’s apis and integrating it into code.',
     url: 'https://howtogenerator.netlify.app/',
     image: portfolioImage2,
   },
@@ -232,7 +220,7 @@ export const experience: TimelineItem[] = [
     content: (
       <div className='md:pl-8'>
         <p>
-          Utilized PHP, HTML, CSS, and JS on the Magento Framework to design, build, test, and deploy business and customer-facing webpages.
+          Utilized PHP, HTML, CSS, and JS on the Magento Framework to design, develop, and deploy business and customer-facing e-commerce web pages generating millions of dollars in revenue.
         </p>
         <br/>
         <p>
@@ -240,7 +228,7 @@ export const experience: TimelineItem[] = [
         </p>
         <br/>
         <p>
-          Exhibited self-starter qualities by producing reputable code with minimal oversight, which was recognized by the team and rewarded with a promotion ahead of schedule.
+          I demonstrated self-starter qualities by producing reputable code with minimal oversight. For instance, I developed customer order and billing history pages, created customizable email templates for order confirmation, password retrieval, shipping details, and returns, and completed other tasks.
         </p>
         
       </div>
@@ -254,11 +242,7 @@ export const experience: TimelineItem[] = [
     content: (
       <div className='md:pl-8'>
         <p>
-          Responsible for designing, implementing, and deploying a global light/dark theme using Flutter and Dart.
-        </p>
-        <br/>
-        <p>
-          Created Dev, Staging, and Prod build configurations using Flutter Flavors connected to their own firebase database.
+         Responsible for designing and implementing a global light/dark theme using Flutter and Dart. Created Dev, Staging, and Prod build configurations using Flutter Flavors connected to their own firebase database.
         </p>
         <br/>
         <p>
@@ -275,7 +259,7 @@ export const experience: TimelineItem[] = [
     content: (
       <div className='md:pl-8'>
         <p>
-          Assisted in building a production-grade React application using Redux, Stripe, Slate.js, and the Material-UI library. 
+          Assisted in building a production-grade React application using Redux, Stripe, Slate.js, and the Material-UI library.
         </p>
         <br/>
         <p>
