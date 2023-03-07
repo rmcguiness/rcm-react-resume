@@ -93,7 +93,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am a Software Developer with 3 years of professional experience. Determined and passionate about writing efficient code to build clean web-pages using modern technologies.`,
+  description: `Software Developer with 3 years of professional experience. I am determined and passionate about writing clean and efficient code to build user friendly web-pages using modern technologies.`,
   aboutItems: [
     {label: 'Location', text: 'New Jersey, US', Icon: MapIcon},
     {label: 'Age', text: '24', Icon: CalendarIcon},
@@ -228,7 +228,7 @@ export const experience: TimelineItem[] = [
         </p>
         <br/>
         <p>
-          I demonstrated self-starter qualities by producing reputable code with minimal oversight. For instance, I developed customer order and billing history pages, created customizable email templates for order confirmation, password retrieval, shipping details, and returns, and completed other tasks.
+          Demonstrated self-starter qualities by producing reputable code with minimal oversight. I developed and wrote tests for customer order/billing history pages, agent facing RMA/RFC return flows, created customizable email templates, and completed many other bug fixes / client design requests
         </p>
         
       </div>
