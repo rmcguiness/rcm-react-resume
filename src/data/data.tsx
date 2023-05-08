@@ -93,7 +93,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Software Developer with 3 years of professional experience. I am determined and passionate about writing clean and efficient code to build user friendly web-pages using modern technologies.`,
+  description: `A highly motivated Software Engineer with 3 years of experience, I have a passion for writing efficient, reliable code to build dynamic web pages.`,
   aboutItems: [
     {label: 'Location', text: 'New Jersey, US', Icon: MapIcon},
     {label: 'Age', text: '24', Icon: CalendarIcon},
@@ -151,19 +151,6 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Spoken Languages',
-    skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
     name: 'Mobile Development',
     skills: [
       {
@@ -194,7 +181,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'How-To Generator',
-    description: 'Leveraged a React input form connected to OpenAi\’s language model, text-davinci-003. I created this app to practice interacting with OpenAi\’s apis and integrating it into code.',
+    description: 'Leveraged a React input form connected to OpenAi\’s language model, text-DaVinci-003. I created this app to practice interacting with OpenAi\’s APIs and integrating them into code.',
     url: 'https://howtogenerator.netlify.app/',
     image: portfolioImage2,
   },
@@ -214,21 +201,20 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'June 2021 - Present',
+    date: '(2 years) June 2021 - Present',
     location: 'Perficient, Inc.',
     title: 'Software Engineer Consultant',
     content: (
       <div className='md:pl-8'>
         <p>
-          Utilized PHP, HTML, CSS, and JS on the Magento Framework to design, develop, and deploy business and customer-facing e-commerce web pages generating millions of dollars in revenue.
+          Leveraged my expertise in PHP, HTML, CSS, and JavaScript on the Magento framework to design, develop, and deploy business and customer-facing e-commerce web pages. Through my efforts, these pages have facilitated the processing of millions of dollars in customer transactions.        </p>
+        <br/>
+        <p>
+          Collaborated with large teams to develop new features, resolve bugs, enhance UI/UX, optimize display speeds, and bolster system security.
         </p>
         <br/>
         <p>
-          Collaborated with large teams to provide clients with improved display speeds, UX functionality, and system security, for their millions of active users.
-        </p>
-        <br/>
-        <p>
-          Demonstrated self-starter qualities by producing reputable code with minimal oversight. I developed and wrote tests for customer order/billing history pages, agent facing RMA/RFC return flows, created customizable email templates, and completed many other bug fixes / client design requests
+          Exhibited self-starter qualities by producing high-quality code with minimal oversight. Notable accomplishments include developing customer order and billing history pages, creating agent-facing RMA/RFC return flows, designing customizable email templates
         </p>
         
       </div>
@@ -242,11 +228,10 @@ export const experience: TimelineItem[] = [
     content: (
       <div className='md:pl-8'>
         <p>
-         Responsible for designing and implementing a global light/dark theme using Flutter and Dart. Created Dev, Staging, and Prod build configurations using Flutter Flavors connected to their own firebase database.
-        </p>
+          As a member of this mobile-app startup, I designed and implemented a global light/dark theme using Flutter and Dart. In addition, I created Dev, Staging, and Prod environment configurations using Flutter Flavors, with each environment connected to its respective Firebase database.        </p>
         <br/>
         <p>
-          Enhanced multitasking, time-management, and problem-solving skills by completing this internship during the fall semester of my senior year.
+          Enhanced multitasking, time management, and problem-solving skills by completing this internship during the fall semester of my senior year while taking a full course load.
         </p>
       </div>
 
