@@ -76,15 +76,15 @@ export const heroData: Hero = {
   actions: [
     {
       href: '/assets/ryanMcGuinessResume.docx.pdf',
-      text: 'Resume',
+      text: 'Resume PDF',
       primary: true,
       Icon: DownloadIcon,
     },
-    {
-      href: `#${SectionId.Contact}`,
-      text: 'Contact',
-      primary: false,
-    },
+    // {
+    //   href: `#${SectionId.Contact}`,
+    //   text: 'Contact',
+    //   primary: false,
+    // },
   ],
 };
 
@@ -93,7 +93,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `A highly motivated Software Engineer with 3 years of experience, I have a passion for writing efficient, reliable code to build dynamic web pages.`,
+  description: `A highly motivated Software Engineer with 3 years of experience. I thrive on learning new technologies and techniques to continually improve my skill set, and I am committed to delivering exceptional results.`,
   aboutItems: [
     {label: 'Location', text: 'New Jersey, US', Icon: MapIcon},
     {label: 'Age', text: '24', Icon: CalendarIcon},
