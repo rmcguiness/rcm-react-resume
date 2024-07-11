@@ -93,7 +93,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `A highly motivated Software Engineer with 3 years of experience. I am committed to delivering exceptional results, and I thrive on learning new technologies and techniques to continually improve my skill set.`,
+  description: `I am a highly motivated Software Engineer with 3 years of experience. I am committed to delivering exceptional results, and I look forward to learning new technologies and techniques to further improve my skill set.`,
   aboutItems: [
     {label: 'Location', text: 'Orlando, FL', Icon: MapIcon},
     {label: 'Age', text: '25', Icon: CalendarIcon},
