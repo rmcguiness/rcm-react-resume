@@ -95,8 +95,8 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `A highly motivated Software Engineer with 3 years of experience. I am committed to delivering exceptional results, and I thrive on learning new technologies and techniques to continually improve my skill set.`,
   aboutItems: [
-    {label: 'Location', text: 'New Jersey, US', Icon: MapIcon},
-    {label: 'Age', text: '24', Icon: CalendarIcon},
+    {label: 'Location', text: 'Orlando, FL', Icon: MapIcon},
+    {label: 'Age', text: '25', Icon: CalendarIcon},
     // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
     // {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
     {label: 'Education', text: 'Lehigh University', Icon: AcademicCapIcon},
@@ -185,7 +185,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: '(2 years) June 2021 - Present',
+    date: '(3 years) June 2021 - Present',
     location: 'Perficient, Inc.',
     title: 'Software Engineer Consultant',
     content: (
@@ -278,8 +278,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'New Jersey, US',
-      href: 'https://www.google.ca/maps/place/Monmouth+County,+NJ/@40.3025208,-74.5294862,10z',
+      text: 'Orlando, FL',
+      href: 'https://maps.app.goo.gl/FD7ASfDa5ELJ6KTs6',
     },
     {
       type: ContactType.Github,
