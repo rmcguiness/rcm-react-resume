@@ -93,10 +93,10 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am a highly motivated Software Engineer with 3 years of experience. I am committed to delivering exceptional results, and I look forward to learning new technologies and techniques to further improve my skill set.`,
+  description: `Software Developer with over 3 years of professional experience developing full-stack software solutions, specializing in front-end technologies. Proven track record of being a reliable teammate and developer, capable of solving problems and delivering high-quality code.`,
   aboutItems: [
     {label: 'Location', text: 'Orlando, FL', Icon: MapIcon},
-    {label: 'Age', text: '25', Icon: CalendarIcon},
+    {label: 'Age', text: '26', Icon: CalendarIcon},
     // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
     // {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
     {label: 'Education', text: 'Lehigh University', Icon: AcademicCapIcon},
