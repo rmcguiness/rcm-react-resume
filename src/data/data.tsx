@@ -76,7 +76,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/ryanMcGuinessResume.docx.pdf',
+      href: '/assets/Ryan-McGuiness-Resume.docx',
       text: 'Resume PDF',
       primary: true,
       Icon: DownloadIcon,
