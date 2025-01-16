@@ -35,8 +35,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Ryan McGuiness\' Resume ',
-  description: "Personal Website used to desplay my resume",
+  title: "Ryan McGuiness' Resume ",
+  description: 'Personal Website used to desplay my resume',
 };
 
 /**
@@ -64,12 +64,13 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <strong className="text-stone-100">Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Perficient</strong> helping build modern B2C and B2B ecommerce websites.
+        I'm a <strong className="text-stone-100">Software Engineer</strong>, currently working at{' '}
+        <strong className="text-stone-100">Perficient</strong> helping build modern B2C and B2B ecommerce websites.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can expect me to be <strong className="text-stone-100">Traveling</strong>,
-        trying out different <strong className="text-stone-100">Hobbies</strong>, or spending time with my <strong className="text-stone-100">Family</strong>.
+        In my free time time, you can expect me to be <strong className="text-stone-100">Traveling</strong>, trying out
+        different <strong className="text-stone-100">Hobbies</strong>, or spending time with my{' '}
+        <strong className="text-stone-100">Family</strong>.
       </p>
     </>
   ),
@@ -127,7 +128,6 @@ export const skills: SkillGroup[] = [
         name: 'CSS',
         level: 9,
       },
-      
     ],
   },
   {
@@ -142,7 +142,7 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
-        name:'JavaScript',
+        name: 'JavaScript',
         level: 9,
       },
       {
@@ -159,13 +159,15 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'MKR E-commerce',
-    description: 'Built a React e-commerce website connected to a Sanity database and integrated Stripe to handle transactions. I created this site as template to sell future products I make pursuing my hobbies.',
+    description:
+      'Built a React e-commerce website connected to a Sanity database and integrated Stripe to handle transactions. I created this site as template to sell future products I make pursuing my hobbies.',
     url: 'https://mkr-ecommerce-v465.vercel.app/',
     image: portfolioImage1,
   },
   {
     title: 'How-To Generator',
-    description: 'Leveraged a React input form connected to OpenAi\’s language model, text-DaVinci-003. I created this app to practice interacting with OpenAi\’s APIs and integrating them into code.',
+    description:
+      'Leveraged a React input form connected to OpenAi’s language model, text-DaVinci-003. I created this app to practice interacting with OpenAi’s APIs and integrating them into code.',
     url: 'https://howtogenerator.netlify.app/',
     image: portfolioImage2,
   },
@@ -179,30 +181,40 @@ export const education: TimelineItem[] = [
     date: 'January 2018 - May 2021',
     location: 'Lehigh University',
     title: 'BA in Computer Science and Economics',
-    content: <p className='md:pl-8'>GPA: 3.4/4.0</p>,
-  }
+    content: <p className="md:pl-8"></p>,
+  },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: '(3 years) June 2021 - Present',
+    date: '(+3 years) June 2021 - Present',
     location: 'Perficient, Inc.',
     title: 'Software Engineer Consultant',
     content: (
-      <div className='md:pl-8'>
+      <div className="md:pl-8">
         <p>
-          Leveraged my expertise in PHP, HTML, CSS, and JavaScript on the Magento framework to design, develop, and deploy business and customer-facing e-commerce web pages. Through my efforts, these pages have facilitated the processing of millions of dollars in customer transactions.        </p>
-        <br/>
-        <p>
-          Collaborated with large teams to develop new features, resolve bugs, enhance UI/UX, optimize display speeds, and bolster system security.
+          Developed and optimized headless e-commerce websites using <strong>Next.js</strong>, <strong>React.js</strong>
+          , and <strong>JavaScript</strong>. Utilized Next.js’ client and server components to improve performance, SEO,
+          and UI/UX.
         </p>
-        <br/>
+        <br />
         <p>
-          Exhibited self-starter qualities by producing high-quality code with minimal oversight. Notable accomplishments include developing customer order and billing history pages, creating agent-facing RMA/RFC return flows, designing customizable email templates
+          Collaborated with management, developers, and quality assurance to create tasks, assign deadlines, and deliver
+          software solutions on time in accordance with project goals and expectations.
         </p>
-        
+        <br />
+        <p>
+          Leveraged <strong>Figma</strong> blueprints, adeptly translating them into code, adhering to best coding
+          practices for enhanced readability and performance optimization. Then, they were styled using clients'
+          preferred styling language, whether <strong>CSS</strong>, <strong>Tailwind</strong>, or <strong>Sass</strong>.
+        </p>
+        <br />
+        <p>
+          Spearheaded multiple high-priority items for clients, such as implementing automatic email responses using
+          <strong> SMTP</strong>, initializing <strong>Jest</strong> for robust testing, and setting up{' '}
+          <strong>Mock Service Workers</strong> to simulate API responses.
+        </p>
       </div>
-      
     ),
   },
   {
@@ -210,33 +222,29 @@ export const experience: TimelineItem[] = [
     location: 'Lapis Health',
     title: 'Mobile Developer Intern',
     content: (
-      <div className='md:pl-8'>
+      <div className="md:pl-8">
         <p>
-          As a member of this mobile-app startup, I designed and implemented a global light/dark theme using Flutter and Dart. In addition, I created Dev, Staging, and Prod environment configurations using Flutter Flavors, with each environment connected to its respective Firebase database.        </p>
-        <br/>
+          Assisted in building a production-grade <strong>React.js</strong> application using <strong>Redux</strong>, <strong>Stripe</strong>, <strong>Slate.js</strong>, and the <strong>Material-UI
+          library</strong>.
+        </p>
+        <br />
         <p>
-          Enhanced multitasking, time management, and problem-solving skills by completing this internship during the fall semester of my senior year while taking a full course load.
+          Built a RESTful <strong>Python</strong> backend using <strong>Flask</strong> complete with a <strong>PostgreSQL</strong> database for persistent storage and a
+          complete test suite.
         </p>
       </div>
+    ),
+  },
+  // {
+  //   date: 'May 2020 - September 2020',
+  //   location: 'Hayek.ai',
+  //   title: 'Software Engineer Intern',
+  //   content: (
+  //     <div className='md:pl-8'>
 
-    ),
-  },
-  {
-    date: 'May 2020 - September 2020',
-    location: 'Hayek.ai',
-    title: 'Software Engineer Intern',
-    content: (
-      <div className='md:pl-8'>
-        <p>
-          Assisted in building a production-grade React application using Redux, Stripe, Slate.js, and the Material-UI library.
-        </p>
-        <br/>
-        <p>
-          Built a RESTful Python backend using Flask complete with a PostgreSQL database for persistent storage and a complete test suite.
-        </p>
-      </div>
-    ),
-  },
+  //     </div>
+  //   ),
+  // },
 ];
 
 /**
@@ -257,7 +265,7 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Project Manager',
-      text: 'I\'ve enjoyed working with Ryan over the past 14 months. He\'s really come into his own and watching him grow has been a pleasure. He\'s done a GREAT job at asking thoughtful questions and finding ways to move forward with his work. He\'s very smart and intuitive and has done an excellent job on the project.',
+      text: "I've enjoyed working with Ryan over the past 14 months. He's really come into his own and watching him grow has been a pleasure. He's done a GREAT job at asking thoughtful questions and finding ways to move forward with his work. He's very smart and intuitive and has done an excellent job on the project.",
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1011.jpg',
     },
   ],
@@ -295,5 +303,5 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/rmcguiness'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ryan-mcguiness-733265191/'},
-  {label: 'HackerRank', Icon: HackerRankIcon, href: 'https://www.hackerrank.com/ryanmcguiness123'}
+  {label: 'HackerRank', Icon: HackerRankIcon, href: 'https://www.hackerrank.com/ryanmcguiness123'},
 ];
