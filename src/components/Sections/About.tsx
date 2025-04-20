@@ -17,7 +17,7 @@ const About: FC = memo(() => {
             <div className="relative self-center h-24 w-24 overflow-hidden rounded-xl md:h-32 md:w-32">
               <Image alt="about-me-image" layout="fill" objectFit="cover" src={profileImageSrc} />
             </div>
-            <div className='self-center'>
+            <div className="self-center">
               <div className="flex gap-x-4 text-neutral-100">
                 <Socials />
               </div>
@@ -37,9 +37,9 @@ const About: FC = memo(() => {
               ))}
             </div>
           </div>
-          
         )}
-        <div className={classNames('col-span-1 flex flex-col gap-y-7 md:pl-20 ', {'md:col-span-3 ': !!profileImageSrc})}>
+        <div
+          className={classNames('col-span-1 flex flex-col gap-y-7 md:pl-20 ', {'md:col-span-3 ': !!profileImageSrc})}>
           <div className="flex flex-col gap-y-4">
             <h2 className="text-2xl font-bold text-white text-center md:text-left">About me</h2>
             <p className="prose prose-sm text-gray-300 text-center md:text-left sm:prose-base">{description}</p>
@@ -53,7 +53,6 @@ const About: FC = memo(() => {
               </li>
             ))}
           </ul>
-          
         </div>
       </div>
     </Section>

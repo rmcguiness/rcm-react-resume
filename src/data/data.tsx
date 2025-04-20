@@ -9,13 +9,11 @@ import {
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import HackerRankIcon from '../components/Icon/HackerRankIcon';
+import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import portfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import portfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -53,7 +51,7 @@ export const SectionId = {
   Testimonials: 'testimonials',
 } as const;
 
-export type SectionId = typeof SectionId[keyof typeof SectionId];
+export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 
 /**
  * Hero section
@@ -113,8 +111,8 @@ export const skills: SkillGroup[] = [
     name: 'Frontend Development',
     skills: [
       {
-        name: 'React',
-        level: 8,
+        name: 'Next.js/React',
+        level: 9,
       },
       {
         name: 'React Native',
@@ -134,6 +132,10 @@ export const skills: SkillGroup[] = [
     name: 'Programming Languages',
     skills: [
       {
+        name: 'TypeScript/JavaScript',
+        level: 9,
+      },
+      {
         name: 'Python',
         level: 8,
       },
@@ -141,10 +143,7 @@ export const skills: SkillGroup[] = [
         name: 'PHP',
         level: 9,
       },
-      {
-        name: 'JavaScript',
-        level: 9,
-      },
+
       {
         name: 'Java',
         level: 7,
@@ -158,18 +157,15 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'Next Playground',
+    description: 'A playground for testing and practicing Next.js features.',
+    url: 'https://next-playground-swart-alpha.vercel.app/',
+  },
+  {
     title: 'MKR E-commerce',
     description:
       'Built a React e-commerce website connected to a Sanity database and integrated Stripe to handle transactions. I created this site as template to sell future products I make pursuing my hobbies.',
-    url: 'https://mkr-ecommerce-v465.vercel.app/',
-    image: portfolioImage1,
-  },
-  {
-    title: 'How-To Generator',
-    description:
-      'Leveraged a React input form connected to OpenAi’s language model, text-DaVinci-003. I created this app to practice interacting with OpenAi’s APIs and integrating them into code.',
-    url: 'https://howtogenerator.netlify.app/',
-    image: portfolioImage2,
+    url: 'https://mkr-ecommerce.vercel.app/',
   },
 ];
 
@@ -224,13 +220,13 @@ export const experience: TimelineItem[] = [
     content: (
       <div className="md:pl-8">
         <p>
-          Assisted in building a production-grade <strong>React.js</strong> application using <strong>Redux</strong>, <strong>Stripe</strong>, <strong>Slate.js</strong>, and the <strong>Material-UI
-          library</strong>.
+          Assisted in building a production-grade <strong>React.js</strong> application using <strong>Redux</strong>,{' '}
+          <strong>Stripe</strong>, <strong>Slate.js</strong>, and the <strong>Material-UI library</strong>.
         </p>
         <br />
         <p>
-          Built a RESTful <strong>Python</strong> backend using <strong>Flask</strong> complete with a <strong>PostgreSQL</strong> database for persistent storage and a
-          complete test suite.
+          Built a RESTful <strong>Python</strong> backend using <strong>Flask</strong> complete with a{' '}
+          <strong>PostgreSQL</strong> database for persistent storage and a complete test suite.
         </p>
       </div>
     ),
