@@ -2,6 +2,9 @@
   "name": "react-resume-template",
   "version": "2.0.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "npm run lint:fix && npm run compile && next build",
     "clean": "rm -rf build-tsc .next",
