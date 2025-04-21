@@ -75,7 +75,7 @@ export const heroData: Hero = {
   actions: [
     {
       href: '/assets/Ryan-McGuiness-Resume.docx',
-      text: 'Resume PDF',
+      text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
     },
@@ -92,14 +92,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Software Developer with over 3 years of professional experience developing full-stack software solutions, specializing in front-end technologies. Proven track record of being a reliable teammate and developer, capable of solving problems and delivering high-quality code.`,
+  description: `Software Engineer with over 4 years of professional experience developing full-stack software solutions, specializing in front-end technologies. Proven track record of being a reliable teammate and developer, capable of solving problems and delivering high-quality code.`,
   aboutItems: [
-    {label: 'Location', text: 'Orlando, FL', Icon: MapIcon},
-    {label: 'Age', text: '26', Icon: CalendarIcon},
+    { label: 'Location', text: 'Orlando, FL', Icon: MapIcon },
+    { label: 'Age', text: '26', Icon: CalendarIcon },
     // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
     // {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Education', text: 'Lehigh University', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Perficient, inc.', Icon: OfficeBuildingIcon},
+    { label: 'Education', text: 'Lehigh University', Icon: AcademicCapIcon },
+    { label: 'Employment', text: 'Perficient, inc.', Icon: OfficeBuildingIcon },
   ],
 };
 
@@ -187,11 +187,15 @@ export const experience: TimelineItem[] = [
     location: 'Perficient, Inc.',
     title: 'Software Engineer Consultant',
     content: (
-      <div className="md:pl-8">
+      <div className="md:pl-6">
         <p>
-          Developed and optimized headless e-commerce websites using <strong>Next.js</strong>, <strong>React.js</strong>
-          , and <strong>JavaScript</strong>. Utilized Next.js’ client and server components to improve performance, SEO,
+          Developed and optimized headless e-commerce websites using <strong>Next.js</strong> and <strong>TypeScript</strong>. Utilized Next.js’ client and server components to improve performance, SEO,
           and UI/UX.
+        </p>
+        <br />
+        <p>
+          Spearheaded multiple high-priority items for clients, such as initializing <strong>Jest</strong> for robust testing and setting up
+          <strong> Mock Service Workers</strong> to simulate API responses. Resulting in 90% code coverage of the codebase.
         </p>
         <br />
         <p>
@@ -200,15 +204,9 @@ export const experience: TimelineItem[] = [
         </p>
         <br />
         <p>
-          Leveraged <strong>Figma</strong> blueprints, adeptly translating them into code, adhering to best coding
-          practices for enhanced readability and performance optimization. Then, they were styled using clients'
-          preferred styling language, whether <strong>CSS</strong>, <strong>Tailwind</strong>, or <strong>Sass</strong>.
-        </p>
-        <br />
-        <p>
-          Spearheaded multiple high-priority items for clients, such as implementing automatic email responses using
-          <strong> SMTP</strong>, initializing <strong>Jest</strong> for robust testing, and setting up{' '}
-          <strong>Mock Service Workers</strong> to simulate API responses.
+          Leveraged <strong>Figma</strong> blueprints, translating them into code while adhering to best coding
+          practices for enhanced readability and performance optimization. Then, styled the pages using clients'
+          preferred styling language.
         </p>
       </div>
     ),
@@ -297,7 +295,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/rmcguiness'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ryan-mcguiness-733265191/'},
-  {label: 'HackerRank', Icon: HackerRankIcon, href: 'https://www.hackerrank.com/ryanmcguiness123'},
+  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/rmcguiness' },
+  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ryan-mcguiness-733265191/' },
+  { label: 'HackerRank', Icon: HackerRankIcon, href: 'https://www.hackerrank.com/ryanmcguiness123' },
 ];
