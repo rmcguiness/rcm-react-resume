@@ -1,10 +1,10 @@
-import { ExternalLinkIcon } from '@heroicons/react/outline';
+import {ExternalLinkIcon} from '@heroicons/react/outline';
 import classNames from 'classnames';
-import { FC, memo, MouseEvent, useCallback, useEffect, useRef, useState } from 'react';
+import {FC, memo, MouseEvent, useCallback, useEffect, useRef, useState} from 'react';
 
-import { isMobile } from '../../config';
-import { portfolioItems, SectionId } from '../../data/data';
-import { PortfolioItem } from '../../data/dataDef';
+import {isMobile} from '../../config';
+import {portfolioItems, SectionId} from '../../data/data';
+import {PortfolioItem} from '../../data/dataDef';
 import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
 import Section from '../Layout/Section';
 
@@ -47,7 +47,7 @@ const Portfolio: FC = memo(() => {
         <h2 className="self-center text-xl font-bold text-white">Personal Projects</h2>
         <div className="w-full md:columns-2">
           {portfolioItems.map((item, index) => {
-            const { title, url } = item;
+            const {title, url} = item;
             return (
               <div className="pb-6" key={`${title}-${index}`}>
                 <a
@@ -86,7 +86,7 @@ const Portfolio: FC = memo(() => {
 Portfolio.displayName = 'Portfolio';
 export default Portfolio;
 
-const ItemOverlay: FC<{ item: PortfolioItem }> = memo(({ item: { title, description } }) => {
+const ItemOverlay: FC<{ item: PortfolioItem }> = memo(({item: {title, description}}) => {
   const [mobile, setMobile] = useState(false);
   const [showOverlay, setShowOverlay] = useState(false);
   const overlayRef = useRef<HTMLDivElement>(null);
