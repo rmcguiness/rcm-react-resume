@@ -16,10 +16,9 @@ const Hero: FC = memo(() => {
         <Image
           alt={`${name}-image`}
           className="absolute z-0"
-          layout="fill"
-          objectFit="cover"
+          fill
+          objectFit='cover'
           placeholder="blur"
-          priority
           src={imageSrc}
         />
         <div className="z-10  max-w-screen-lg px-4 lg:px-0">

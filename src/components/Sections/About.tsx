@@ -15,7 +15,7 @@ const About: FC = memo(() => {
         {!!profileImageSrc && (
           <div className="col-span-1 flex flex-col  justify-center gap-y-4 md:justify-start">
             <div className="relative h-24 w-24 self-center overflow-hidden rounded-xl md:h-32 md:w-32">
-              <Image alt="about-me-image" layout="fill" objectFit="cover" src={profileImageSrc} />
+              <Image alt="about-me-image" fill objectFit='cover' src={profileImageSrc} />
             </div>
             <div className="self-center">
               <div className="flex gap-x-4 text-neutral-100">

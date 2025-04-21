@@ -11,7 +11,7 @@ export const headerID = 'headerNav';
 
 const Header: FC = memo(() => {
   const [currentSection, setCurrentSection] = useState<SectionId | null>(null);
-  const navSections = useMemo(() => [SectionId.About, SectionId.Resume, SectionId.Contact, SectionId.Portfolio], []);
+  const navSections = useMemo(() => [SectionId.About, SectionId.Resume, SectionId.Portfolio, SectionId.Contact], []);
 
   const intersectionHandler = useCallback((section: SectionId | null) => {
     section && setCurrentSection(section);
@@ -27,7 +27,7 @@ const Header: FC = memo(() => {
   );
 });
 
-const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}> = memo(
+const DesktopNav: FC<{ navSections: SectionId[]; currentSection: SectionId | null }> = memo(
   ({navSections, currentSection}) => {
     const baseClass =
       '-m-1.5 p-1.5 rounded-md font-bold first-letter:uppercase hover:transition-colors hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-600 sm:hover:text-cyan-600 text-neutral-100';
@@ -51,7 +51,7 @@ const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null
   },
 );
 
-const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}> = memo(
+const MobileNav: FC<{ navSections: SectionId[]; currentSection: SectionId | null }> = memo(
   ({navSections, currentSection}) => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
@@ -122,10 +122,13 @@ const NavItem: FC<{
   onClick?: () => void;
 }> = memo(({section, current, inactiveClass, activeClass, onClick}) => {
   return (
-    <Link href={`/#${section}`} passHref>
-      <a className={classNames(current ? activeClass : inactiveClass)} key={section} onClick={onClick}>
-        {section}
-      </a>
+    <Link
+      className={classNames(current ? activeClass : inactiveClass)}
+      href={`/#${section}`}
+      key={section}
+      onClick={onClick}
+    >
+      {section}
     </Link>
   );
 });
