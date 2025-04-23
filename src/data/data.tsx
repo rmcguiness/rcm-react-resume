@@ -159,7 +159,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Next Playground',
     description: 'A playground for testing and practicing Next.js features.',
-    url: 'https://next-playground-swart-alpha.vercel.app/',
+    url: 'https://next-playground-rcm.vercel.app/',
   },
   {
     title: 'MKR E-commerce',
