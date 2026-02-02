@@ -94,12 +94,12 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Software Engineer with 5 years of professional experience building enterprise-level, scalable web applications. Specializes in modern JavaScript frameworks including React, Next.js, and TypeScript. Proven track record of delivering high-quality code across multiple client engagements, improving test coverage and code quality, and collaborating effectively with cross-functional teams. Passionate about frontend development, performance optimization, and creating exceptional user experiences.`,
   aboutItems: [
-    { label: 'Location', text: 'Orlando, FL', Icon: MapIcon },
-    { label: 'Age', text: '26', Icon: CalendarIcon },
+    {label: 'Location', text: 'Orlando, FL', Icon: MapIcon},
+    {label: 'Age', text: '26', Icon: CalendarIcon},
     // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
     // {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    { label: 'Education', text: 'Lehigh University', Icon: AcademicCapIcon },
-    { label: 'Employment', text: 'Perficient, inc.', Icon: OfficeBuildingIcon },
+    {label: 'Education', text: 'Lehigh University', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Perficient, inc.', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -186,7 +186,8 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Basic Social Media Platform',
-    description: 'A full-stack social media application built with Next.js frontend connected to a Node.js backend. Features include user authentication, post creation and management, and real-time updates. Currently developing a backend API to handle authentication, user profiles, and post interactions.',
+    description:
+      'A full-stack social media application built with Next.js frontend connected to a Node.js backend. Features include user authentication, post creation and management, and real-time updates. Currently developing a backend API to handle authentication, user profiles, and post interactions.',
     url: 'https://social-media-desktop.vercel.app/',
   },
   {
@@ -197,7 +198,8 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'NextPlayground',
-    description: 'An experimental application built to implement and explore advanced concepts from Next.js official documentation. Serves as a testing ground for new features including server components, routing patterns, and optimization techniques.',
+    description:
+      'An experimental application built to implement and explore advanced concepts from Next.js official documentation. Serves as a testing ground for new features including server components, routing patterns, and optimization techniques.',
     url: 'https://next-playground-rcm.vercel.app/',
   },
 ];
@@ -212,7 +214,8 @@ export const education: TimelineItem[] = [
     title: 'B.A. Computer Science',
     content: (
       <p className="md:pl-8">
-        <strong>Relevant Coursework:</strong> Design and Analysis of Algorithms, Programming Languages, Software Engineering, Systems Software
+        <strong>Relevant Coursework:</strong> Design and Analysis of Algorithms, Programming Languages, Software
+        Engineering, Systems Software
       </p>
     ),
   },
@@ -226,27 +229,36 @@ export const experience: TimelineItem[] = [
     content: (
       <div className="md:pl-6">
         <p>
-          Built enterprise-level, scalable, high-performing applications utilizing <strong>TypeScript</strong>, <strong>Next.js</strong>, <strong>React.js</strong>, HTML, and CSS for clients across diverse industries including telecommunications, sports media, and manufacturing.
+          Built enterprise-level, scalable, high-performing applications utilizing <strong>TypeScript</strong>,{' '}
+          <strong>Next.js</strong>, <strong>React.js</strong>, HTML, and CSS for clients across diverse industries
+          including telecommunications, sports media, and manufacturing.
         </p>
         <br />
         <p>
-          Spearheaded testing initiative that increased code coverage from 40% to over 90% by implementing comprehensive <strong>Jest</strong> test suite, significantly enhancing code reliability and quality.
+          Spearheaded testing initiative that increased code coverage from 40% to over 90% by implementing comprehensive{' '}
+          <strong>Jest</strong> test suite, significantly enhancing code reliability and quality.
         </p>
         <br />
         <p>
-          Collaborated with cross-functional teams of 2-8 developers alongside Project Managers, Business Analysts, and QA teams to plan, design, build, test, and deploy technical solutions that fulfill and exceed project requirements.
+          Collaborated with cross-functional teams of 2-8 developers alongside Project Managers, Business Analysts, and
+          QA teams to plan, design, build, test, and deploy technical solutions that fulfill and exceed project
+          requirements.
         </p>
         <br />
         <p>
-          Designed and developed applications using test-driven development and best practices, translating <strong>Figma</strong> designs into production-ready code with <strong>Tailwind CSS</strong> and custom styling.
+          Designed and developed applications using test-driven development and best practices, translating{' '}
+          <strong>Figma</strong> designs into production-ready code with <strong>Tailwind CSS</strong> and custom
+          styling.
         </p>
         <br />
         <p>
-          Proactively identified and resolved existing and potential bugs arising from new features, maintaining high code quality standards across multiple client projects.
+          Proactively identified and resolved existing and potential bugs arising from new features, maintaining high
+          code quality standards across multiple client projects.
         </p>
         <br />
         <p>
-          Successfully delivered features across 4 major client engagements, consistently meeting deadlines and project requirements.
+          Successfully delivered features across 4 major client engagements, consistently meeting deadlines and project
+          requirements.
         </p>
       </div>
     ),
@@ -258,15 +270,18 @@ export const experience: TimelineItem[] = [
     content: (
       <div className="md:pl-8">
         <p>
-          Assisted in the design and development of a production-grade mobile application using <strong>Flutter</strong>, <strong>Dart</strong>, and <strong>Firebase</strong>.
+          Assisted in the design and development of a production-grade mobile application using <strong>Flutter</strong>
+          , <strong>Dart</strong>, and <strong>Firebase</strong>.
         </p>
         <br />
         <p>
-          Implemented mobile-first design principles and UI/UX best practices to create responsive applications that work seamlessly across all screen sizes.
+          Implemented mobile-first design principles and UI/UX best practices to create responsive applications that
+          work seamlessly across all screen sizes.
         </p>
         <br />
         <p>
-          Contributed to building features for a healthcare-focused mobile platform, gaining experience in the intersection of technology and healthcare.
+          Contributed to building features for a healthcare-focused mobile platform, gaining experience in the
+          intersection of technology and healthcare.
         </p>
       </div>
     ),
@@ -327,7 +342,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/rmcguiness' },
-  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ryan-mcguiness-733265191/' },
-  { label: 'HackerRank', Icon: HackerRankIcon, href: 'https://www.hackerrank.com/ryanmcguiness123' },
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/rmcguiness'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ryan-mcguiness-733265191/'},
+  {label: 'HackerRank', Icon: HackerRankIcon, href: 'https://www.hackerrank.com/ryanmcguiness123'},
 ];
